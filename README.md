@@ -26,37 +26,6 @@ This repository contains flood mapping results for multiple districts in Sri Lan
 
 ---
 
-# Workflow
-
-
-Sentinel-1 SAR
-      │
-      ▼
-Apply Orbit File
-      │
-      ▼
-Radiometric Calibration
-      │
-      ▼
-Speckle Filtering
-      │
-      ▼
-Terrain Correction
-      │
-      ▼
-GeoTIFF Export
-      │
-      ▼
-Python Flood Detection
-      │
-      ├── Thresholding
-      ├── Morphological Cleanup
-      ├── Remove Permanent Water
-      ├── Polygon Generation
-      └── Flood Area Estimation
-      │
-      ▼
-Flood Map + GeoTIFF + GeoJSON
 ```
 
 ---
@@ -138,21 +107,7 @@ Flood_Detection_Pipeline_CLEAN.ipynb
 # Repository Structure
 
 
-QGIS-Flood
-│
-├── README.md
-├── Flood_Detection_Pipeline_CLEAN.ipynb
-│
-├── Result
-│   ├── Gamapaha_2024-05-23.tif
-│   ├── Kaluthra_2024-05-23.tif
-│   ├── matara_2024-05-23.tif
-│   ├── ratnapur-2024-05-23.tif
-│   ├── _matara_2021-05-15.tif
-│   ├── gampaha_result.png
-│   ├── kaluthara_result.png
-│   ├── matara_result.png
-│   └── ratnapura_result.png
+
 ```
 ```
 
